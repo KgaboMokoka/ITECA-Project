@@ -1,0 +1,112 @@
+:root {
+    --primary: #f59e0b;
+    --primary-dark: #d97706;
+    --dark: #1f2937;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937;
+}
+
+
+.navbar-brand {
+    font-size: 1.4rem;
+    color: var(--primary) !important;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+    color: white;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.hero-section h1 span {
+    color: var(--primary);
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: #1f2937;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+    color: #1f2937;
+}
+
+.provider-card .badge-verified {
+    background-color: #10b981;
+    color: white;
+    font-size: 0.7rem;
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+
+.provider-card .rating {
+    color: var(--primary);
+}
+
+.stat-card {
+    border-left: 4px solid var(--primary);
+}
+
+.sidebar {
+    min-height: calc(100vh - 60px);
+    background-color: var(--dark);
+}
+
+.sidebar .nav-link {
+    color: #9ca3af;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background-color: rgba(245, 158, 11, 0.15);
+    color: var(--primary);
+}
+
+.sidebar .nav-link i {
+    width: 20px;
+}
+
+.auth-card {
+    max-width: 480px;
+    margin: 60px auto;
+}
+
+.stars i {
+    color: var(--primary);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+}
