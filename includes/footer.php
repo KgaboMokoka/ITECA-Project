@@ -8,19 +8,19 @@
             <div class="col-md-4 mb-3">
                 <h6 class="fw-bold">Quick Links</h6>
                 <ul class="list-unstyled small">
-                    <li><a href="/handyman-hub/index.php" class="text-muted text-decoration-none">Home</a></li>
-                    <li><a href="/handyman-hub/pages/client/search.php" class="text-muted text-decoration-none">Find Services</a></li>
-                    <li><a href="/handyman-hub/auth/register.php" class="text-muted text-decoration-none">Register</a></li>
+                    <li><a href="/handyman-hub/index.php" class="text-light text-decoration-none">Home</a></li>
+                    <li><a href="/handyman-hub/pages/client/search.php" class="text-light text-decoration-none">Find Services</a></li>
+                    <li><a href="/handyman-hub/auth/register.php" class="text-light text-decoration-none">Register</a></li>
                 </ul>
             </div>
             <div class="col-md-4 mb-3">
                 <h6 class="fw-bold">Contact</h6>
-                <p class="text-muted small mb-1"><i class="bi bi-envelope me-2"></i>support@handymanhub.co.za</p>
-                <p class="text-muted small"><i class="bi bi-telephone me-2"></i>+27 10 000 0000</p>
+                <p class="text-light small mb-1"><i class="bi bi-envelope me-2"></i>support@handymanhub.co.za</p>
+                <p class="text-light small"><i class="bi bi-telephone me-2"></i>+27 10 000 0000</p>
             </div>
         </div>
         <hr class="border-secondary">
-        <p class="text-center text-muted small mb-0">
+        <p class="text-center text-light small mb-0">
             &copy; <?= date('Y') ?> Handyman Hub. All rights reserved.
         </p>
     </div>
