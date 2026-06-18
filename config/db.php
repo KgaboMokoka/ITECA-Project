@@ -1,8 +1,8 @@
 <?php
-$host     = 'localhost';
-$dbname   = 'handyman-hub';
-$username = 'root';
-$password = '';
+$host     = getenv('DB_HOST') ?: 'localhost';
+$dbname   = getenv('DB_NAME') ?: 'handyman-hub';
+$username = getenv('DB_USER') ?: 'root';
+$password = getenv('DB_PASSWORD') ?: '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
@@ -11,3 +11,4 @@ try {
 } catch (PDOException $e) {
     die(json_encode(['error' => 'Database connection failed: ' . $e->getMessage()]));
 }
+
