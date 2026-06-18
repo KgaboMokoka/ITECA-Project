@@ -1,9 +1,9 @@
-<footer class="bg-dark text-primary mt-5 py-4">
+<footer class="bg-dark text-light mt-5 py-4">
     <div class="container">
         <div class="row">
             <div class="col-md-4 mb-3">
                 <h5 class="fw-bold"><i class="bi bi-tools me-2"></i>Handyman Hub</h5>
-                <p class="text-muted small">Connecting skilled informal workers with clients across South Africa.</p>
+                <p class="text-light small">Connecting skilled informal workers with clients across South Africa.</p>
             </div>
             <div class="col-md-4 mb-3">
                 <h6 class="fw-bold">Quick Links</h6>
